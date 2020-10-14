@@ -1,27 +1,22 @@
 ### Date created
-Include the date you created this project and README file.
 9/28/2020
 
 ### Project Title
-Replace the Project Title
 Explore US Bike Share Data
 
 ### Description
-Describe what your project is about and what it does
-In this project, you will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. 
-You will write code to import the data and answer interesting questions about it by computing descriptive statistics. 
-You will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+
+This project allows users to explore bikshare data from across three different cities. 
+In this project users are able, specify a city, month and day of the week which will be used to review and identify common start times, popular locations, as well as duration statistics and user statistics.
+Finally users have the opportunity towards the end of the program to review the raw data from whihc this information was pulled from. 
 
 ### Files used
-Include the files used
 chicago.csv
 washington.csv
 newyorkcity.csv
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
 #https://docs.python.org/2/library/time.html
 #https://pandas.pydata.org/pandas-docs/stable/reference/api
 #https://realpython.com/python-while-loop/
