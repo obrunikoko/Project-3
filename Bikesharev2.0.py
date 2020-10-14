@@ -202,6 +202,7 @@ def user_stats(df):
 
 def raw_data(df):
     trip_details = 0
+    #put the question outside the loop so the user answer can be used to continue to add to the lines of data
     print('Would you like to view individual trip data?')
     while True:
         ans = input( 'Yes or No ').lower()

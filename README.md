@@ -22,3 +22,7 @@ newyorkcity.csv
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+#https://docs.python.org/2/library/time.html
+#https://pandas.pydata.org/pandas-docs/stable/reference/api
+#https://realpython.com/python-while-loop/
+#https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html
