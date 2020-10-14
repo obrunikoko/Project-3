@@ -122,7 +122,7 @@ def station_stats(df):
     # TO DO: display most commonly used start station
     common_start_station = df['Start Station'].mode()[0]
 
-    print('\nThe most common start station is\n', common_start_station)
+    print('\nThe most common start station is \n', common_start_station)
 
 
     # TO DO: display most commonly used end station
@@ -228,7 +228,8 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         raw_data(df)
-        
+
+        print("Thank you for exploring this data with me!")
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
