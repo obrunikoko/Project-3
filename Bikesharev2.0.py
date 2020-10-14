@@ -38,10 +38,12 @@ def get_filters():
         else:
             break
     month = None
+    #if the user inputs a month that is not on this list it will continue to repeat until the user enters a valid answer.
     while month not in ['all', 'january', 'february', 'march', 'april', 'may', 'june']:
         month = input('What month would you like to filter the data, you can also use "all" to not apply a filter ').lower()
 
-    day = None                                                        
+    day = None
+    #if the user inputs a day that is not on this list it will continue to repeat until the user enters a valid answer.
     while day not in ['all', 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']:
         day = input ('What day of the week would you like to filter the day?, you can also use "all" to not apply a filter ').lower()
 
